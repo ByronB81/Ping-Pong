@@ -15,8 +15,8 @@ _It can count to the provided number, creating index and ordered list_
 * _Output: [1,2]_
 
 _It can replace numbers divisible by 3 with "Ping"_
-*_Input: 3_
-*_Output: [1,2,Ping]_
+* _Input: 3_
+* _Output: [1,2,Ping]_
 
 _It can replace numbers divisible by 5 with "Pong"_
 * _Input: 5_
