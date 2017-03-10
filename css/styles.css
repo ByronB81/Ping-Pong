@@ -9,3 +9,8 @@ body {
 .jumbotron {
   background-color: rgb(215,224,236);
 }
+
+.footer {
+  display: none;
+  text-align: center;
+}

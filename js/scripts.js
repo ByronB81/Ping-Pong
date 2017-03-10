@@ -25,6 +25,7 @@ $(document).ready(function(){
        $(".output").append("<li>" + index + "</li>");
      }
 
+     
   });
 
 });
