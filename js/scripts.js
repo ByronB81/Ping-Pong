@@ -8,7 +8,6 @@ $(document).ready(function(){
     for (var index = 1; index <= count; index += 1)
       // console.log(index);
 
-
       if (index % 15 === 0) {
         $(".output").append("<li>" + "<b>Ping Pong Pandemonium</b>" + "</li>");
       }
@@ -23,8 +22,5 @@ $(document).ready(function(){
      else {
        $(".output").append("<li>" + index + "</li>");
      }
-
-
   });
-
 });
