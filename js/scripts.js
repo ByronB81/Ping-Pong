@@ -1,7 +1,6 @@
 $(document).ready(function(){
   $("form").submit (function(event){
-    console.log("clicked");
-
+    // console.log("clicked");
     event.preventDefault();
 
     var count = parseInt($("input#input1").val());
@@ -11,21 +10,21 @@ $(document).ready(function(){
 
 
       if (index % 15 === 0) {
-        $(".output").append("<li>" + "Ping Pong Pandemonium" + "</li>");
+        $(".output").append("<li>" + "<b>Ping Pong Pandemonium</b>" + "</li>");
       }
 
       else if (index % 5 === 0) {
-        $(".output").append("<li>" + "Pong" + "</li>");
+        $(".output").append("<li>" + "<b>Pong</b>" + "</li>");
       }
 
       else if (index % 3 === 0) {
-       $(".output").append("<li>" + "Ping" + "</li>");
+       $(".output").append("<li>" + "<b>Ping</b>" + "</li>");
      }
      else {
        $(".output").append("<li>" + index + "</li>");
      }
 
-     
+
   });
 
 });
