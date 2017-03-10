@@ -11,20 +11,20 @@ _Ping Pong Pandemonium will take a user inputted number, create an index from on
 ## Specifications
 
 _It can count to the provided number, creating index and ordered list_
-*Input: 2
-*Output: 1,2
-
-_It can replace numbers divisible by 15 with "Ping Pong Pandemonium"_
-*_Input: 30_
-*_Output: Ping Pong Pandemonium_
-
-_It can replace numbers divisible by 5 with "Pong"_
-*_Input: 10_
-*_Output: Pong_
+* _Input: 2_
+* _Output: [1,2]_
 
 _It can replace numbers divisible by 3 with "Ping"_
-*_Input: 6_
-*_Output: Ping_
+*_Input: 3_
+*_Output: [1,2,Ping]_
+
+_It can replace numbers divisible by 5 with "Pong"_
+* _Input: 5_
+* _Output: [1,2,Ping,4,Pong]_
+
+_It can replace numbers divisible by 15 with "Ping Pong Pandemonium"_
+* _Input: 15_
+* _Output: [1,2,Ping,4,Pong,Ping,7,8,Ping,Pong,11,Ping,13,14,Ping Pong Pandemonium]_
 
 ## Setup/Installation Requirements
 
