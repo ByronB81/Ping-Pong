@@ -7,7 +7,15 @@ $(document).ready(function(){
     for (var index = 1; index <= count; index += 1)
       // console.log(index);
 
-     if (index % 3 === 0) {
+      if (index % 15 === 0) {
+        $(".output").append("<li>" + "Ping Pong" + "</li>");
+      }
+
+      else if (index % 5 === 0) {
+        $(".output").append("<li>" + "Pong" + "</li>");
+      }
+
+      else if (index % 3 === 0) {
        $(".output").append("<li>" + "Ping" + "</li>");
      }
      else {
