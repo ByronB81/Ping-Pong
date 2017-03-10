@@ -4,7 +4,6 @@ $(document).ready(function(){
     event.preventDefault();
 
     var count = parseInt($("input#input1").val());
-    var total = [];
     for (var index = 1; index <= count; index += 1)
       // console.log(index);
 
