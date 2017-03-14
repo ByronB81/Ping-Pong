@@ -29,7 +29,7 @@ _It can replace numbers divisible by 15 with "Ping Pong Pandemonium"_
 ## Setup/Installation Requirements
 
 * _Clone onto local drive_
-* _open using web browsed_
+* _open using web browser_
 * _input a number_
 * _click "Ping Dat Pong"_
 * _enjoy the pandemonium_
