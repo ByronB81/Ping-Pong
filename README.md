@@ -2,7 +2,7 @@
 
 #### _Creates index based on user input number and replaces exceptions with strings, 03/10/2017_
 
-#### By _**Byron MuthaFuggin Blocker**_
+#### By _**Byron Blocker**_
 
 ## Description
 
